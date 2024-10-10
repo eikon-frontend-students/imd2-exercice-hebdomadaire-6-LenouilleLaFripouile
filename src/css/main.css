@@ -12,3 +12,55 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #eee;
+}
+
+.top {
+  h1 {
+    color: #754ff6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.bottom {
+  h1 {
+    color: #e5807c;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.container {
+  display: flex;
+  width: 200px;
+  height: 100vh;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  padding: 50px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
